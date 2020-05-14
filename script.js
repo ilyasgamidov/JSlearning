@@ -10,36 +10,46 @@
 //     privat: false
 // };
 
-// const a = prompt('what video do u watch?', ''),
-//       b = prompt('how much time?', ''),
-//       c = prompt('what video do u watch?', ''),
-//       d = prompt('how much time?', '');
+// // const a = prompt('what video do u watch?', ''),
+// //       b = prompt('how much time?', ''),
+// //       c = prompt('what video do u watch?', ''),
+// //       d = prompt('how much time?', '');
 
-// personalMovieDB.movies[a] = b;
-// personalMovieDB.movies[c] = d;
+// // personalMovieDB.movies[a] = b;
+// // personalMovieDB.movies[c] = d;
 
-// console.log(personalMovieDB);
+// // console.log(personalMovieDB);
+
+// if (4 ==4) {
+//     console.log('ok');
+// } else {
+//     console.log('error');
+// }
 
 
 
-const numberOfFilms = prompt('How much film do u watch?', '');
 
-// console.log(numberOfFilms);
+// if (num < 49) {
+//     console.log('error');
+// } else if (num > 100) {
+//     console.log('too much');
+// } else {
+//     console.log('ok');
+// }
 
-const personalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    genres: [],
-    privat: false
-};
 
-const a = prompt('U last film?', ''),
-      b = prompt('How much points?', ''),
-      c = prompt('U last film?', ''),
-      d = prompt('How much points?', '');
+const num = 13==500;
 
-      personalMovieDB.movies[a] = b;
-      personalMovieDB.movies[c] = d;
-
-console.log(personalMovieDB);
+switch (num) {
+    case 50:
+        console.log('er');
+        break;
+    case 100:
+        console.log('er');
+        break;
+    case 130:
+        console.log('good');
+        break;
+    default:
+        console.log('oh, unlucky (');
+}
