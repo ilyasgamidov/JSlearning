@@ -38,18 +38,41 @@
 // }
 
 
-const num = 13==500;
+// const num = 13==500;
 
-switch (num) {
-    case 50:
-        console.log('er');
-        break;
-    case 100:
-        console.log('er');
-        break;
-    case 130:
-        console.log('good');
-        break;
-    default:
-        console.log('oh, unlucky (');
+// switch (num) {
+//     case 50:
+//         console.log('er');
+//         break;
+//     case 100:
+//         console.log('er');
+//         break;
+//     case 130:
+//         console.log('good');
+//         break;
+//     default:
+//         console.log('oh, unlucky (');
+// }
+
+
+let num = 50;
+
+// while (num <= 55) {
+//     console.log(num);
+//     num++;
+// }
+
+// do {
+//     console.log(num);
+//     num++;
+// }
+// while (num < 55);
+
+for (let i = 2; i < 20; i++) {
+    if (i === 15) {
+        continue;
+    }
+
+    console.log(i);
 }
+    
